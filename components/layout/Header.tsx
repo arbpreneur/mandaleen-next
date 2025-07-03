@@ -105,7 +105,7 @@ export function Header() {
 					{/* CTA Button */}
 					<div className="hidden lg:block">
 						<Button
-							className="gradient-bg gradient-hover font-medium px-6 py-2 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 group"
+							className="font-medium shadow-lg hover:shadow-xl group"
 							asChild
 						>
 							<a
@@ -170,7 +170,7 @@ export function Header() {
 									</Link>
 								))}
 								<div className="pt-2">
-									<Button className="w-full font-medium shadow-lg group gradient-bg gradient-hover px-6 py-2 transition-all duration-300" asChild>
+									<Button className="w-full font-medium shadow-lg group" asChild>
 										<a
 											href="https://wa.me/962796660020"
 											target="_blank"

@@ -65,8 +65,6 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             AI agents that reply instantly on WhatsApp, Instagram, Facebook & your website—24/7, in perfect Arabic.
-
-
           </motion.p>
 
           {/* CTA Buttons */}
@@ -78,7 +76,7 @@ export function Hero() {
           >
             <Button 
               size="lg"
-              className="gradient-bg gradient-hover text-white font-semibold px-8 py-4 text-lg shadow-2xl transition-all duration-300 group"
+              className="font-semibold shadow-2xl group"
               asChild
             >
               <a href="/product">
@@ -90,7 +88,7 @@ export function Hero() {
               variant="outline"
               size="lg"
               asChild
-              className="border-2 border-gray-300 hover:border-[#FF7A00] text-gray-700 hover:text-[#FF7A00] font-semibold px-8 py-4 text-lg group"
+              className="font-semibold group"
             >
               <a href="/#what-is-mandaleen">
                 <Sparkles className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform duration-300" />

@@ -105,7 +105,7 @@ export function Stats() {
 					</p>
 					<Button
 						size="lg"
-						className="gradient-bg gradient-hover text-white font-semibold px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all duration-300"
+						className="font-semibold shadow-lg hover:shadow-xl"
 						asChild
 					>
 						<Link href="/contact">

@@ -67,7 +67,7 @@ export function CTA() {
 					>
 						<Button
 							size="lg"
-							className="gradient-bg gradient-hover text-white font-semibold px-10 py-4 text-lg shadow-2xl transition-all duration-300 group"
+							className="text-white font-semibold shadow-2xl group"
 							asChild
 						>
 							<Link href="/contact">
@@ -78,7 +78,7 @@ export function CTA() {
 						<Button
 							variant="outline"
 							size="lg"
-							className="border-2 border-gray-300 hover:border-[#FF7A00] text-gray-700 hover:text-[#FF7A00] font-semibold px-10 py-4 text-lg group"
+							className="font-semibold group"
 							asChild
 						>
 							<Link href="/about">
