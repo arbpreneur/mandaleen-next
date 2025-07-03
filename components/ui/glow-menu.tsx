@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils"
 import { DivideIcon as LucideIcon } from "lucide-react"
 
 interface MenuItem {
-  icon: LucideIcon | React.FC
+  icon: typeof LucideIcon | React.FC
   label: string
   href: string
 }
