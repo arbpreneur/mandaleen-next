@@ -34,7 +34,7 @@ export function Hero() {
         <div className="text-center max-w-4xl mx-auto">
           {/* Badge */}
           <motion.div
-            className="inline-flex items-center space-x-2 bg-gradient-to-r from-[#FF7A00]/10 to-[#FF4500]/10 rounded-full px-6 py-3 mb-12 border border-[#FF7A00]/20"
+            className="inline-flex items-center space-x-2 bg-gradient-to-r from-[#FF7A00]/10 to-[#FF4500]/10 rounded-xl px-6 py-3 mb-12 border border-[#FF7A00]/20"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
