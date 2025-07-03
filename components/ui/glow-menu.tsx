@@ -1,7 +1,7 @@
 "use client"
 
 import * as React from "react"
-import { motion } from "framer-motion"
+import { motion, HTMLMotionProps } from "framer-motion"
 import { cn } from "@/lib/utils"
 import { DivideIcon as LucideIcon } from "lucide-react"
 
@@ -11,7 +11,7 @@ interface MenuItem {
   href: string
 }
 
-interface MenuBarProps extends React.HTMLAttributes<HTMLDivElement> {
+interface MenuBarProps extends Omit<HTMLMotionProps<"nav">, "children"> {
   items: MenuItem[]
   activeItem?: string
   onItemClick?: (label: string) => void
@@ -39,7 +39,7 @@ const activeGlowVariants = {
   hover: { opacity: 1, scale: 1 },
 }
 
-export const MenuBar = React.forwardRef<HTMLDivElement, MenuBarProps>(
+export const MenuBar = React.forwardRef<HTMLElement, MenuBarProps>(
   ({ className, items, activeItem, onItemClick, ...props }, ref) => {
     return (
       <motion.nav
