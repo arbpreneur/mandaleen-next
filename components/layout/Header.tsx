@@ -68,7 +68,7 @@ export function Header() {
 	return (
 		<motion.header
 			className={cn(
-				'fixed top-0 w-full z-50 transition-all duration-300',
+				'fixed top-0 w-full z-50',
 				scrolled
 					? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-gray-200/50'
 					: 'bg-transparent'
@@ -116,7 +116,7 @@ export function Header() {
 								WhatsApp Us
 								<span className="inline-block align-middle">
 									<svg
-										className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300"
+										className="ml-2 h-5 w-5"
 										fill="none"
 										stroke="currentColor"
 										strokeWidth="2"
@@ -159,7 +159,7 @@ export function Header() {
 										key={item.name}
 										href={item.href}
 										className={cn(
-											'block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300',
+											'block px-3 py-2 rounded-md text-base font-medium',
 											pathname === item.href
 												? 'text-[#FF7A00] bg-orange-50'
 												: 'text-gray-700 hover:text-[#FF7A00] hover:bg-gray-50'
@@ -179,7 +179,7 @@ export function Header() {
 											WhatsApp Us
 											<span className="inline-block align-middle">
 												<svg
-													className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300"
+													className="ml-2 h-5 w-5"
 													fill="none"
 													stroke="currentColor"
 													strokeWidth="2"

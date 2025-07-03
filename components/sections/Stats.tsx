@@ -70,15 +70,15 @@ export function Stats() {
 								transition={{ duration: 0.6, delay: index * 0.1 }}
 								viewport={{ once: true }}
 							>
-								<div className="relative flex flex-col flex-1 justify-between p-8 bg-white rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 min-h-[220px] group-hover:border-[#FF7A00]/30">
-									<div className="absolute inset-0 bg-gradient-to-br from-[#FF7A00]/5 to-[#FF4500]/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+								<div className="relative flex flex-col flex-1 justify-between p-8 bg-white rounded-2xl border border-gray-200 shadow-lg hover:shadow-xl min-h-[220px] group-hover:border-[#FF7A00]/30">
+									<div className="absolute inset-0 bg-gradient-to-br from-[#FF7A00]/5 to-[#FF4500]/5 rounded-2xl opacity-0 group-hover:opacity-100" />
 									<div className="relative z-10 flex flex-col items-center">
 										<div
-											className="w-14 h-14 flex items-center justify-center mb-4 rounded-xl bg-gradient-to-br from-[#FF7A00] to-[#FF4500] shadow-lg group-hover:scale-110 transition-transform duration-300"
+											className="w-14 h-14 flex items-center justify-center mb-4 rounded-xl bg-gradient-to-br from-[#FF7A00] to-[#FF4500] shadow-lg"
 										>
 											<Icon className="w-7 h-7 text-white" />
 										</div>
-										<h3 className="text-lg font-semibold text-gray-900 mb-1 group-hover:text-[#FF7A00] transition-colors duration-300">
+										<h3 className="text-lg font-semibold text-gray-900 mb-1 group-hover:text-[#FF7A00]">
 											{stat.label}
 										</h3>
 										<p className="text-gray-600 text-sm">

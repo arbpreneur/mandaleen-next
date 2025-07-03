@@ -72,7 +72,7 @@ export function CTA() {
 						>
 							<Link href="/contact">
 								Get Started
-								<ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
+								<ArrowRight className="ml-2 h-5 w-5" />
 							</Link>
 						</Button>
 						<Button
@@ -82,7 +82,7 @@ export function CTA() {
 							asChild
 						>
 							<Link href="/about">
-								<Users className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
+								<Users className="mr-2 h-5 w-5" />
 								Who Are We?
 							</Link>
 						</Button>
